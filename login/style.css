@@ -14,9 +14,7 @@ body{
 div.login-container{
     color: black;
     width: 100%;
-    display: block;
     margin: auto;
-    height: 576px;
     position: relative;
     top: 300px;
     width: 350px;
@@ -34,7 +32,6 @@ form{
     height: 60%;
     justify-content: center;
     margin: auto;
-    padding: auto;
     position: relative;
     top: 20px;
 }
