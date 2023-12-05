@@ -20,12 +20,16 @@ body{
     max-width: 100%;
     height: auto;
 }
+.cadastro{
+    margin-top: 150px;
+}
+
 section{
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 900px;
-    min-height: 100vh;
+    min-height: 80vh;
     margin:  auto;
     background-color: #63638e9c;
     border-radius: 10px;
@@ -51,19 +55,23 @@ form{
     width: 60%;
     height: 60%;
     justify-content: center;
-    margin: auto;
+    margin: auto ;
     position: relative;
-    top: 20px;
+}
+.user{
+    padding-top: 80px;
+}
+.forma{
+    height: 780px;
 }
 .register{
    display: flex;
    margin: auto;
-   padding-bottom: 200px;
+   padding: 40px;
 
 }
-h2{
+h2{padding-bottom: 20px;
     text-align: center;
-    padding-top: 30px;
     font-weight: 800;
     font-size: 30px;
     color: white;
@@ -87,13 +95,16 @@ label{
 
 }
 button{
-    margin: 10px;
+    margin: 70px 10px;
     padding: 5px;
     border-radius: 5px;
     border: none;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
     cursor: pointer;
     transition: all .2s ease-in-out;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.103);
+    font-weight: 600;
+    font-size: 90%;
 }
 button:hover{
     background-color: var(--var01);
@@ -108,7 +119,7 @@ button:hover{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
 }
 .cadastrar{
-    margin-top: 40px;
+    margin-top:  4px ;
     font-weight: 600;
     font-size: 90%;
     letter-spacing: 1px;
